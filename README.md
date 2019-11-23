@@ -91,6 +91,14 @@ disabled          boolean   禁止用户滑动               false
 ```js
 change            当前项发生改变后发生
 
+// html ...
+<swipe class="my-swipe" :auto='0' :showIndicators='false' @change='swipe__change'></swipe>
+
+// js ...
+ swipe__change(index) {
+     console.log('当前索引：%s', index);
+ }
+
 ```
 
 #### * 接口
