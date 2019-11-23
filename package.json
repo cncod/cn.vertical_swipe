@@ -1,6 +1,6 @@
 {
   "name": "cn.v.swipe",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "垂直方向的 swiper 轮播滑动组件.",
   "main": "dist/cn.vertical_swipe.js",
   "scripts": {
