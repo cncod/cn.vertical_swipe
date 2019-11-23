@@ -9,7 +9,7 @@
 
 ```js
 // 第一种下载方式
-npm i cn.vertical_swipe --save
+npm i cn.v.swipe --save
 
 // 第二种下载方式
 
@@ -25,7 +25,7 @@ https://github.com/cncod/cn.vertical_swipe/archive/master.zip
 
 ```js
 // js ...
-import { Swipe, SwipeItem } from 'cn.vertical_swipe';
+import { Swipe, SwipeItem } from 'cn.v.swipe';
 export default {
     components: {
         Swipe,
@@ -45,7 +45,7 @@ export default {
 </template>
 
 // css 
-@import '../../../../node_modules/vertical_swipe/dist/vertical_swipe.css';
+@import '../../../../node_modules/cn.v.swipe/dist/cn.vertical_swipe.css';
 .my-swipe {
   width: 100%;
   height: 100%;
