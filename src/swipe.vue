@@ -215,7 +215,7 @@
 
         if (!options || towards === 'goto') {
           options = options || {};
-          pageHeight = this.$el.clientWidth;
+          pageHeight = this.$el.clientHeight;
           currentPage = pages[index];
           if (towards === 'goto') {
             prevPage = options.prevPage;
